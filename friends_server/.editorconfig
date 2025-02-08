@@ -1,0 +1,18 @@
+root = true
+
+[*.{kt,kts}]
+# trailing comma 적용
+ij_kotlin_allow_trailing_comma_on_call_site = true
+ij_kotlin_allow_trailing_comma = true
+
+# 한줄에 140자 이상의 코드를 작성하면 안되는 강제사항 제거
+ktlint_standard_max_line_length = disabled
+max_line_length = off
+
+# 프로퍼티에 대한 주석은 다른줄로 하는 강제사항 제거
+ktlint_standard_comment-wrapping = disabled
+ktlint_standard_comment-spacing = disabled
+ktlint_standard_discouraged-comment-location = disabled
+ktlint_standard_if-else-wrapping = disabled
+ktlint_standard_no-consecutive-comments = disabled
+ktlint_standard_spacing-between-declarations-with-comments = disabled
